@@ -27,10 +27,15 @@ loadMacros(
 ## Author('Gavin LaRose')
 ## Institution('University of Michigan')
 ## TitleText1('Calculus')
+## TitleText2('Calculus')
 ## EditionText1('5')
+## EditionText2('6')
 ## AuthorText1('Hughes-Hallett')
+## AuthorText2('Hughes-Hallett')
 ## Section1('14.3')
+## Section2('14.3')
 ## Problem1('27')
+## Problem2('32')
 
 ## Textbook tags
 ## HHChapter1('Differentiating Functions of Several Variables')
@@ -87,7 +92,7 @@ Use your answer to part (a) to estimate how much the $other would have
 to change if the $incr increased by $i0 $unit and the
 temperature remained constant.
 $BR
-change in volume = \{ ans_rule(35) \}
+change in $other = \{ ans_rule(35) \}
 
 END_TEXT
 Context()->normalStrings;

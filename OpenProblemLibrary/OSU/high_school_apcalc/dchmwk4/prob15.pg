@@ -7,10 +7,12 @@
 
 ## DBsubject('Calculus')
 ## DBchapter('Differentiation')
-## DBsection('Derivatives of Polynomials and Exponential Functions')
+## DBsection('Derivatives of Polynomial and Exponential Functions')
 ## Date('1/17/2000')
 ## Author('Zig Fiedorowicz')
 ## Institution('OSU')
+## MLT('TangentToGraph')
+## MLTleader('1')
 ## TitleText1('Calculus: Early Transcendentals')
 ## EditionText1('5')
 ## AuthorText1('Stewart')

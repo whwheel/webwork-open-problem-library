@@ -15,10 +15,15 @@
 ## Author('Gavin LaRose')
 ## Institution('University of Michigan')
 ## TitleText1('Calculus')
+## TitleText2('Calculus')
 ## EditionText1('5')
+## EditionText2('6')
 ## AuthorText1('Hughes-Hallett')
+## AuthorText2('Hughes-Hallett')
 ## Section1('17.2')
+## Section2('17.2')
 ## Problem1('41')
+## Problem2('45')
 
 ## Textbook tags
 ## HHChapter1('Parameterization and Vector Fields')
@@ -65,7 +70,7 @@ Find parametric equations for \( x \) and \( y \) which describe the path
 traced out by the light, where \( y \) is distance (in cm) above the ground
 and \(x\) the horizontal distance (in cm) starting position of the center
 of the circle around which your foot moves.  Assuming the light starts
-$h1 cm above the ground, at the front of its rotation.
+$h0 cm above the ground, at the front of its rotation.
 $BR
 \( x(t) = \) \{ ans_rule(35) \}, $BR
 \( y(t) = \) \{ ans_rule(35) \}.

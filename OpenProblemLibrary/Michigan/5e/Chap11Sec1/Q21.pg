@@ -13,10 +13,15 @@
 ## Author('Gavin LaRose')
 ## Institution('University of Michigan')
 ## TitleText1('Calculus')
+## TitleText2('Calculus')
 ## EditionText1('5')
+## EditionText2('6')
 ## AuthorText1('Hughes-Hallett')
+## AuthorText2('Hughes-Hallett')
 ## Section1('11.1')
+## Section2('11.1')
 ## Problem1('21')
+## Problem2('24')
 
 ## Textbook tags
 ## HHChapter('Differential Equations')
@@ -172,9 +177,9 @@ TEXT(beginproblem());
 Context()->texStrings;
 BEGIN_TEXT
 
-Match the solutions to the differential equations.  If there
-is more than one solution to an equation, select the answer that
-includes all solutions.
+Match the solutions to the differential equations.  If multiple
+options could be correct for one of the differential equations,
+pick the option that includes all solutions.
 
 \{ $match->print_q() \}
 \{ $match->print_a() \}
@@ -182,7 +187,7 @@ includes all solutions.
 END_TEXT
 Context()->normalStrings;
 
-ANS(str_cmp( $match->ra_correct_ans ) );
+ANS( str_cmp( $match->ra_correct_ans ) );
 
 @q = @{$match->selected_q()};
 @a = @{$match->ra_correct_ans};
@@ -243,6 +248,4 @@ $q[2] : $a[2].
 END_SOLUTION
 Context()->normalStrings;
 
-
-COMMENT('MathObject version');
 ENDDOCUMENT();

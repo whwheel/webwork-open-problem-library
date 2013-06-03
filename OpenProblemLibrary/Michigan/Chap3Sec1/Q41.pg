@@ -8,26 +8,34 @@
 
 ## DBsubject('Calculus')
 ## DBchapter('Applications of Differentiation')
-## DBsection('Derivatives of Polynomials and Exponential Functions')
+## DBsection('Derivatives of Polynomial and Exponential Functions')
 ## Date('')
 ## Author('Gavin LaRose');
 ## Institution('University of Michigan')
 ## TitleText1('Calculus')
 ## TitleText2('Calculus')
+## TitleText3('Calculus')
+## TitleText4('Applied Calculus')
 ## EditionText1('4')
 ## EditionText2('5')
+## EditionText3('6')
+## EditionText4('4')
 ## AuthorText1('Hughes-Hallett')
 ## AuthorText2('Hughes-Hallett')
+## AuthorText3('Hughes-Hallett')
+## AuthorText4('Hughes-Hallett')
 ## Section1('3.1')
 ## Section2('3.1')
+## Section3('3.1')
+## Section4('3.1')
 ## Problem1('41')
 ## Problem2('44')
+## Problem3('46')
+## Problem4('34')
 
 ## Textbook tags
 ## HHChapter1('Short-Cuts to Differentiation')
 ## HHChapter2('Short-Cuts to Differentiation')
-## HHSection1('Powers and Polynomials')
-## HHSection2('Powers and Polynomials')
 
 
 DOCUMENT();
@@ -42,7 +50,7 @@ loadMacros(
 
 Context("Numeric");
 Context()->variables->add( r=>'Real' );
-Context()->constants->add( b=>7 );
+Context()->constants->add( b=>7.41459 );
 # this means that student answers are
 #    not reduced to the numerical value
 #    specified in the Context
@@ -69,7 +77,7 @@ $PAR
 END_TEXT
 Context()->normalStrings;
 
-ANS(Compute( "($b*$p/$a)*pi*r^($p-1)*b" )->cmp() );
+ANS( Compute( "($b*$p/$a)*pi*r^($p-1)*b" )->cmp() );
 
 $p1 = $p - 1;
 $rp = ( $p1 == 1 ) ? "r" : "r^{$p1}";
@@ -87,6 +95,6 @@ Since \( $b\over $a \), \( \pi \) and \( b \) are all constants,
 END_SOLUTION
 Context()->normalStrings;
 
+COMMENT( 'Uses MathObjects' );
 
-COMMENT('MathObject version');
 ENDDOCUMENT();
